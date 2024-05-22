@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt br">
+	<head>
+		<meta charset="UTF-8">
+	<title>
+	</title>
+		<style>
+			#Ceemti{
+				font-weight: bold;
+				font-size: 14px;
+				text-align: center;
+		}
+			img{
+				margin-left: 585px;
+		}
+			#materia{
+				font-weight: bold;
+				font-size: 20px;
+				text-align: center;
+		}
+			#imagem{
+				height: 450px;
+				weight: 550px;
+				margin-left: 650px;	
+		}
+			#criadores{
+				background-color: #7bdff2
+		}
+			footer{
+				font-size: 12px;
+				text-align: center;	
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1 id="Ceemti"> CEEMTI Baixo Guandu</h1>
+			<a href="site HTML ceemti (PWD).html"> PWD </a>
+			<a href="site HTML ceemti (DG).html"> DG </a>
+			<img src="file:///C:/Users/Thsil/Downloads/Logo%20Escola.png" alt="Logo da Escola">
+			<href 
+		</header>
+		<main>
+			<h2 id="materia"> Desenvolvimento de Games (DG)</h2>
+			<img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_03_m.jpg" id="imagem" alt="imagem escolhida">
+		</main>
+		<footer>
+			<h2 id="criadores"> thyago e arthur </h2>
+		</footer>
+	</body>
+</html>
