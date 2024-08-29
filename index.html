@@ -1,51 +1,98 @@
-<!DOCTYPE html>
-<html lang="pt br">
+<!doctype html>
+<html lang = "pt-br">
 	<head>
-		<meta charset="UTF-8">
-	<title>
-	</title>
-		<style>
-			#Ceemti{
-				font-weight: bold;
-				font-size: 14px;
-				text-align: center;
-		}
-			img{
-				margin-left: 585px;
-		}
-			#materia{
-				font-weight: bold;
-				font-size: 20px;
-				text-align: center;
-		}
-			#imagem{
-				height: 450px;
-				weight: 550px;
-				margin-left: 650px;	
-		}
-			#criadores{
-				background-color: #7bdff2
-		}
-			footer{
-				font-size: 12px;
-				text-align: center;	
-		}
-		</style>
+		<meta charset = "utf-8">
+	<style>
+h1 {
+font-weight: bold;
+padding: 16pt;
+text-align: center;
+}
+p {
+font-weight: bold;
+padding: 16pt;
+text-align: center;
+}
+.img {
+margin-top: -10px;
+margin-left: 660px
+}
+.meio {
+margin-top: -10px;
+margin-left: 825px;
+}
+.mainmenubtn {
+background-color: purple;
+color: white;
+border: none;
+cursor: pointer;
+padding:20px;
+margin-top:20px;
+}
+.mainmenubtn:hover {
+background-color: purple;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-child {
+display: none;
+background-color: purple;
+min-width: 200px;
+}
+.dropdown-child a {
+color: white;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+.dropdown:hover .dropdown-child {
+display: block;
+}
+.aps{
+margin-top: -10px;
+margin-left: 825px;
+}
+	</style>
+		
 	</head>
 	<body>
 		<header>
-			<h1 id="Ceemti"> CEEMTI Baixo Guandu</h1>
-			<a href="site HTML ceemti (PWD).html"> PWD </a>
-			<a href="site HTML ceemti (DG).html"> DG </a>
-			<img src="file:///C:/Users/Thsil/Downloads/Logo%20Escola.png" alt="Logo da Escola">
-			<href 
+			<div class="dropdown">
+  				<button class="mainmenubtn">Menu</button>
+  			<div class="dropdown-child">
+   				<a href="#anchor1">PWD</a>
+    				<a href="#anchor2">APS</a>
+    				<a href="#anchor3">DG</a>
+  			</div>
+			</div>
+			<h1>CEEMTI BAIXO GUANDU</h1>
+			<div class="img">
+				<img src="logo.png">
+			</div>
 		</header>
+		
 		<main>
-			<h2 id="materia"> Desenvolvimento de Games (DG)</h2>
-			<img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_03_m.jpg" id="imagem" alt="imagem escolhida">
+				<p> Programação Web Design </p>
+			<div class="meio">
+				<img src="https://www.diariodepernambuco.com.br/dpimages/pR86nDFMsw4nG8iHiG_Rw4usOpw=/960x0/smart/imgsapp.diariodepernambuco.com.br/app/noticia_127983242361/2024/03/15/949025/20240315102201134468o.jpg">
+			<div id="anchor1"></div>
+			</div>
+				<p> Analise e Projeto de Sistemas </p>
+			<div class="aps">
+				<img src="https://blog90.com.br/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-31-at-18.10.02.jpeg" width="200" height="200">
+			<div id="anchor2"></div>
+			</div>
+				<p> Design de Games </p>
+			<div class="meio">
+				<img src="https://static.ndmais.com.br/2021/02/antonio-macaco-prego-bc-1.jpg">
+			<div id="anchor3"></div>
+			</div>
 		</main>
+
 		<footer>
-			<h2 id="criadores"> thyago e arthur </h2>
+			<p>Katheryn</p>
 		</footer>
 	</body>
-</html>
+<html>
